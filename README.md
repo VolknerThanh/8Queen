@@ -1,3 +1,7 @@
 # 8Queen #
-###### ABC ######
-# HELLO #
+
+### Bài toán tám hậu ###
+
+> A
+> B C 
+> DsĐS
