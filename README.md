@@ -15,8 +15,8 @@
 
 
 1. Tạo bàn cờ bằng ma trận kích thước 8x8 và giá trị bằng 0
-> ```cshape
-> map = new int[8,8];
+> ```csharp
+> int[,] map = new int[8,8];
 > ```
 
 2. Đưa tọa độ của con hậu đầu tiên vào input
@@ -42,5 +42,5 @@
 > c = y;
 > map[d,c] = ++k
 > ```
-7. Lập lại bước 5 cho tới khi `k == 8` thì dừng lại
-8. Nếu `k=8` thì in ra tất cả quân hậu không thì in ra câu thông báo
+7. Lập lại bước 5 cho tới khi `k = 8` thì dừng lại
+8. Nếu `k = 8` thì in ra tất cả quân hậu không thì in ra câu thông báo
