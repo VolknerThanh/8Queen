@@ -26,12 +26,21 @@
 > ```
 3. Khai báo 1 biến `int k` để xác định số lượng quân hậu
 > ```csharp
-> int k = 1;```
-
+> int k = 1;
+> ```
 > ```csharp
 > map[d,c] = k;
 > ```
-4. Thiết lập ô con hậu có thể đi được (đường đi của quân hậu)
+4. Thiết lập ô con hậu có thể đi được (đường đi của quân hậu) và gán giá trị bằng -1
+> ```csharp
+> map[x,y] = -1
+> ```
 5. Tìm các con hậu kế cận (không được nằm trên đường đi của các con hậu trước đó) và xác định vị trí của nó (con hậu có đường đi mà số ô trống còn lại trên bàn cờ nhiều nhất)
-6. Gán tọa độ của con hậu tại (
-
+6. Gán tọa độ của con hậu tại thành tọa độ của con hậu mới tìm được và tăng số lượng `k` lên 1 đơn vị
+> ```csharp
+> d = x;
+> c = y;
+> map[d,c] = ++k
+> ```
+7. Lập lại bước 5 cho tới khi `k == 8` thì dừng lại
+8. Nếu `k=8` thì in ra tất cả quân hậu không thì in ra câu thông báo
