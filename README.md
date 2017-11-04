@@ -14,19 +14,21 @@
 
 
 
-1. Tạo bàn cờ bằng ma trận kích thước 8x8
+1. Tạo bàn cờ bằng ma trận kích thước 8x8 và giá trị bằng 0
 > ```cshape
->   map = new int[8,8];
+> map = new int[8,8];
 > ```
 
 2. Đưa tọa độ của con hậu đầu tiên vào input
 > ```csharp
-> 	int d = int.parse(Console.ReadLine());
-> 	int c = int.parse(Console.ReadLine());
+> int d = int.parse(Console.ReadLine());
+> int c = int.parse(Console.ReadLine());
 > ```
 3. Khai báo 1 biến `int k` để xác định số lượng quân hậu
 > ```csharp
-> int k = 1;
+> int k = 1;```
+
+> ```csharp
 > map[d,c] = k;
 > ```
 4. Thiết lập ô con hậu có thể đi được (đường đi của quân hậu)
