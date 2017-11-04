@@ -1,0 +1,6 @@
+D:\Programming\Console C#\8Queen\8Queen\bin\Debug\8Queen.exe.config
+D:\Programming\Console C#\8Queen\8Queen\bin\Debug\8Queen.exe
+D:\Programming\Console C#\8Queen\8Queen\bin\Debug\8Queen.pdb
+D:\Programming\Console C#\8Queen\8Queen\obj\Debug\8Queen.csprojResolveAssemblyReference.cache
+D:\Programming\Console C#\8Queen\8Queen\obj\Debug\8Queen.exe
+D:\Programming\Console C#\8Queen\8Queen\obj\Debug\8Queen.pdb
