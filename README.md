@@ -3,5 +3,5 @@
 > ### Mô tả bài toán
 
 > ```csharp
-> hello
+> int[,] map = new int[8,8];
 > ```
