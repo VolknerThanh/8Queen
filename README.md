@@ -1,10 +1,7 @@
-# 8Queen #
+# Bài toán tám hậu
 
-### Bài toán tám hậu ###
+> ### Mô tả bài toán
 
-> A
-> B C 
->> SDSDSDS
-
-1. hello
-2. world
+* Input : vị trí của con hậu đầu tiên (vị trí bất kỳ)
+* Output:
+  sdsdsds
